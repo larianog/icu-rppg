@@ -74,8 +74,8 @@ The following models are used in this experiment:
 
 | Model Name | Description | Reference |
 | :--- | :--- | :--- |
-| **ME-chunk** | Temporal-Spatial State Space Duality | arXiv 2025 |
-| **ME-flow** | Temporal-Spatial State Space Duality | arXiv 2025 |
+| **ME-chunk** | Temporal-Spatial State Space Duality (chunk inference) | arXiv 2025 |
+| **ME-flow** | Temporal-Spatial State Space Duality (low-latency flow) | arXiv 2025 |
 | **RhythmMamba**| Multi-Temporal Constraint Mamba | AAAI 2025 |
 | **PhysFormer** | Temporal-Difference Transformer | CVPR 2022 |
 | **TSCAN** | Multi-Task Temporal Shift Convolutional Attention Network | NeurIPS 2020 |
