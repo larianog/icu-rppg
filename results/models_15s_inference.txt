@@ -1,0 +1,320 @@
+Model Name: EfficientPhys.pure
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 14.88 seconds
+Time taken for each chunk:
+  Chunk 0: 1.87 seconds
+  Chunk 1: 1.93 seconds
+  Chunk 2: 2.02 seconds
+  Chunk 3: 1.82 seconds
+  Chunk 4: 1.80 seconds
+  Chunk 5: 1.77 seconds
+  Chunk 6: 1.79 seconds
+  Chunk 7: 1.87 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [68.4, 71.28, 76.86, 93.15, 62.370000000000005, 30.06, 68.49, 65.61]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [11.134945007936494, 3.6933761878306797, 0.026684087301589443, 17.11757557029179, 16.47739477248676, 48.045466441798936, 7.8218947619047725, 12.875774298295454]
+AVG MEAN ERROR: 14.65 +/- 13.79 BPM
+Pearson correlation: -0.431 (p-value: 0.286)
+
+
+Model Name: EfficientPhys.rlap
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 14.79 seconds
+Time taken for each chunk:
+  Chunk 0: 1.78 seconds
+  Chunk 1: 1.77 seconds
+  Chunk 2: 1.95 seconds
+  Chunk 3: 1.80 seconds
+  Chunk 4: 1.76 seconds
+  Chunk 5: 1.85 seconds
+  Chunk 6: 1.74 seconds
+  Chunk 7: 2.13 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [75.69, 72.45, 79.38, 81.0, 76.32000000000001, 74.7, 74.97, 77.76]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [3.844945007936502, 2.523376187830678, 2.5466840873015855, 4.967575570291785, 2.5273947724867583, 3.4054664417989358, 1.3418947619047685, 0.7257742982954483]
+AVG MEAN ERROR: 2.74 +/- 1.26 BPM
+Pearson correlation: 0.060 (p-value: 0.888)
+
+
+Model Name: ME-chunk.pure
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 24.18 seconds
+Time taken for each chunk:
+  Chunk 0: 2.91 seconds
+  Chunk 1: 2.94 seconds
+  Chunk 2: 3.03 seconds
+  Chunk 3: 2.93 seconds
+  Chunk 4: 3.02 seconds
+  Chunk 5: 3.00 seconds
+  Chunk 6: 3.07 seconds
+  Chunk 7: 3.28 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [86.22, 78.3, 106.2, 84.15, 111.33000000000001, 53.28, 114.12, 97.02]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [6.685054992063499, 3.3266238121693164, 29.366684087301593, 8.117575570291791, 32.48260522751325, 24.825466441798937, 37.80810523809524, 18.534225701704543]
+AVG MEAN ERROR: 20.14 +/- 12.16 BPM
+Pearson correlation: 0.025 (p-value: 0.953)
+
+
+Model Name: ME-chunk.rlap
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 24.42 seconds
+Time taken for each chunk:
+  Chunk 0: 3.06 seconds
+  Chunk 1: 3.02 seconds
+  Chunk 2: 2.93 seconds
+  Chunk 3: 2.99 seconds
+  Chunk 4: 3.02 seconds
+  Chunk 5: 3.04 seconds
+  Chunk 6: 3.02 seconds
+  Chunk 7: 3.35 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [83.61, 68.31, 80.01, 48.51, 90.09, 58.59, 80.82, 92.07]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [4.0750549920634995, 6.6633761878306785, 3.176684087301595, 27.522424429708217, 11.242605227513238, 19.515466441798935, 4.508105238095226, 13.58422570170454]
+AVG MEAN ERROR: 11.29 +/- 8.08 BPM
+Pearson correlation: 0.528 (p-value: 0.178)
+
+
+Model Name: ME-flow.pure
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 76.30 seconds
+Time taken for each chunk:
+  Chunk 0: 9.73 seconds
+  Chunk 1: 9.98 seconds
+  Chunk 2: 9.34 seconds
+  Chunk 3: 8.44 seconds
+  Chunk 4: 9.24 seconds
+  Chunk 5: 9.90 seconds
+  Chunk 6: 9.62 seconds
+  Chunk 7: 10.05 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [92.07, 58.68, 120.78, 120.33, 84.78, 93.60000000000001, 92.78999999999999, 99.27000000000001]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [12.535054992063493, 16.29337618783068, 43.94668408730159, 44.297575570291784, 5.9326052275132355, 15.49453355820107, 16.478105238095225, 20.784225701704557]
+AVG MEAN ERROR: 21.97 +/- 13.39 BPM
+Pearson correlation: 0.108 (p-value: 0.798)
+
+
+Model Name: ME-flow.rlap
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 75.53 seconds
+Time taken for each chunk:
+  Chunk 0: 8.22 seconds
+  Chunk 1: 8.71 seconds
+  Chunk 2: 8.91 seconds
+  Chunk 3: 9.93 seconds
+  Chunk 4: 10.27 seconds
+  Chunk 5: 9.90 seconds
+  Chunk 6: 9.86 seconds
+  Chunk 7: 9.73 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [93.33000000000001, 74.16, 47.52, 60.39, 114.48, 59.31, 94.5, 93.15]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [13.795054992063513, 0.8133761878306842, 29.313315912698407, 15.642424429708214, 35.63260522751324, 18.795466441798936, 18.188105238095233, 14.664225701704552]
+AVG MEAN ERROR: 18.36 +/- 9.80 BPM
+Pearson correlation: 0.480 (p-value: 0.229)
+
+
+Model Name: PhysFormer.pure
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 82.57 seconds
+Time taken for each chunk:
+  Chunk 0: 10.31 seconds
+  Chunk 1: 10.28 seconds
+  Chunk 2: 10.35 seconds
+  Chunk 3: 10.33 seconds
+  Chunk 4: 10.06 seconds
+  Chunk 5: 10.34 seconds
+  Chunk 6: 10.60 seconds
+  Chunk 7: 10.30 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [82.62, 96.21, 89.10000000000001, 74.61, 78.84, 65.61, 111.96000000000001, 102.15]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [3.0850549920635046, 21.236623812169313, 12.266684087301599, 1.4224244297082151, 0.0073947724867622355, 12.49546644179894, 35.64810523809524, 23.664225701704552]
+AVG MEAN ERROR: 13.73 +/- 11.68 BPM
+Pearson correlation: -0.315 (p-value: 0.447)
+
+
+Model Name: PhysFormer.rlap
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 83.80 seconds
+Time taken for each chunk:
+  Chunk 0: 10.27 seconds
+  Chunk 1: 10.36 seconds
+  Chunk 2: 11.01 seconds
+  Chunk 3: 10.38 seconds
+  Chunk 4: 10.30 seconds
+  Chunk 5: 10.74 seconds
+  Chunk 6: 10.52 seconds
+  Chunk 7: 10.22 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [72.18, 75.42, 77.31, 74.16, 80.55, 60.39, 81.0, 69.47999999999999]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [7.354945007936493, 0.4466238121693209, 0.4766840873015923, 1.872424429708218, 1.7026052275132315, 17.715466441798938, 4.688105238095233, 9.005774298295464]
+AVG MEAN ERROR: 5.41 +/- 5.52 BPM
+Pearson correlation: -0.297 (p-value: 0.474)
+
+
+Model Name: PhysNet.pure
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 8.40 seconds
+Time taken for each chunk:
+  Chunk 0: 1.01 seconds
+  Chunk 1: 1.05 seconds
+  Chunk 2: 1.10 seconds
+  Chunk 3: 1.03 seconds
+  Chunk 4: 1.07 seconds
+  Chunk 5: 1.07 seconds
+  Chunk 6: 1.02 seconds
+  Chunk 7: 1.06 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [71.55000000000001, 136.98, 64.44, 76.59, 115.47, 67.59, 96.66, 106.11]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [7.9849450079364885, 62.00662381216931, 12.393315912698412, 0.5575755702917888, 36.62260522751323, 10.515466441798935, 20.34810523809523, 27.624225701704546]
+AVG MEAN ERROR: 22.26 +/- 18.47 BPM
+Pearson correlation: -0.307 (p-value: 0.46)
+
+
+Model Name: PhysNet.rlap
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 8.18 seconds
+Time taken for each chunk:
+  Chunk 0: 0.94 seconds
+  Chunk 1: 1.02 seconds
+  Chunk 2: 0.98 seconds
+  Chunk 3: 0.98 seconds
+  Chunk 4: 1.04 seconds
+  Chunk 5: 1.13 seconds
+  Chunk 6: 1.00 seconds
+  Chunk 7: 1.08 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [66.51, 84.42, 89.73, 79.56, 80.1, 85.67999999999999, 82.53, 85.86]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [13.024945007936495, 9.446623812169321, 12.896684087301594, 3.5275755702917877, 1.2526052275132287, 7.574533558201054, 6.218105238095234, 7.374225701704546]
+AVG MEAN ERROR: 7.66 +/- 3.87 BPM
+Pearson correlation: -0.470 (p-value: 0.24)
+
+
+Model Name: RhythmMamba.pure
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 54.85 seconds
+Time taken for each chunk:
+  Chunk 0: 7.05 seconds
+  Chunk 1: 7.62 seconds
+  Chunk 2: 7.42 seconds
+  Chunk 3: 7.19 seconds
+  Chunk 4: 6.82 seconds
+  Chunk 5: 6.29 seconds
+  Chunk 6: 6.15 seconds
+  Chunk 7: 6.30 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 112.44]
+Estimated HR: [134.46, 57.78, 59.4, 46.349999999999994, 43.56, 59.31, 60.21]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 78.48577429829545]
+Mean error array: [54.92505499206351, 17.19337618783068, 17.43331591269841, 29.68242442970822, 35.28739477248676, 18.795466441798936, 18.275774298295453]
+AVG MEAN ERROR: 27.37 +/- 13.02 BPM
+Pearson correlation: 0.501 (p-value: 0.252)
+
+
+Model Name: RhythmMamba.rlap
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 56.55 seconds
+Time taken for each chunk:
+  Chunk 0: 6.50 seconds
+  Chunk 1: 7.35 seconds
+  Chunk 2: 7.73 seconds
+  Chunk 3: 6.27 seconds
+  Chunk 4: 6.71 seconds
+  Chunk 5: 7.50 seconds
+  Chunk 6: 7.21 seconds
+  Chunk 7: 7.28 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [62.099999999999994, 79.38, 82.44000000000001, 84.87, 63.09, 57.69, 75.42, 81.9]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [17.434945007936506, 4.406623812169315, 5.606684087301602, 8.83757557029179, 15.757394772486762, 20.41546644179894, 0.8918947619047657, 3.4142257017045523]
+AVG MEAN ERROR: 9.60 +/- 6.84 BPM
+Pearson correlation: -0.659 (p-value: 0.0758)
+
+
+Model Name: TSCAN.pure
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 5.88 seconds
+Time taken for each chunk:
+  Chunk 0: 0.74 seconds
+  Chunk 1: 0.83 seconds
+  Chunk 2: 0.72 seconds
+  Chunk 3: 0.67 seconds
+  Chunk 4: 0.74 seconds
+  Chunk 5: 0.68 seconds
+  Chunk 6: 0.76 seconds
+  Chunk 7: 0.72 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [69.83999999999999, 63.45, 82.26, 65.88000000000001, 108.36, 60.66000000000001, 78.39, 108.89999999999999]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [9.69494500793651, 11.523376187830678, 5.426684087301595, 10.152424429708205, 29.512605227513234, 17.445466441798928, 2.078105238095233, 30.414225701704538]
+AVG MEAN ERROR: 14.53 +/- 9.84 BPM
+Pearson correlation: 0.454 (p-value: 0.259)
+
+
+Model Name: TSCAN.rlap
+Video Name: leito9
+Segment Duration: 15 seconds
+Source FPS from OpenCV: 25.000000
+Total HR estimation time: 5.66 seconds
+Time taken for each chunk:
+  Chunk 0: 0.64 seconds
+  Chunk 1: 0.66 seconds
+  Chunk 2: 0.74 seconds
+  Chunk 3: 0.70 seconds
+  Chunk 4: 0.70 seconds
+  Chunk 5: 0.68 seconds
+  Chunk 6: 0.68 seconds
+  Chunk 7: 0.86 seconds
+
+Chunk center times: [7.5, 22.5, 37.5, 52.5, 67.5, 82.5, 97.5, 112.44]
+Estimated HR: [112.59, 88.47, 113.49, 76.86, 75.14999999999999, 61.739999999999995, 82.26, 107.55]
+GT mean HR per chunk: [79.5349450079365, 74.97337618783068, 76.83331591269841, 76.03242442970821, 78.84739477248677, 78.10546644179894, 76.31189476190477, 78.48577429829545]
+Mean error array: [33.0550549920635, 13.496623812169318, 36.656684087301585, 0.8275755702917849, 3.697394772486774, 16.365466441798944, 5.948105238095238, 29.064225701704544]
+AVG MEAN ERROR: 17.39 +/- 13.05 BPM
+Pearson correlation: 0.198 (p-value: 0.638)
