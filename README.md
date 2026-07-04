@@ -64,18 +64,8 @@ The script `inference_video_segments.py` was executed with the following paramet
 
 Samples from the video used for inference are shown below.
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="image1.png" width="400"><br>
-      <b>Model A</b>
-    </td>
-    <td align="center">
-      <img src="image2.png" width="400"><br>
-      <b>Model B</b>
-    </td>
-  </tr>
-</table>
+<table> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/127dfdf3-3404-47c8-babc-4fa02507b65d" alt="Anonymized ICU video" width="300"><br> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/52e018b1-c08e-4cda-92aa-1b9906105043" alt="ROI visualization" width="300"><br> </td> </tr> </table>
+
 
 The inference results for the evaluated video are available in the `results/` directory. This folder contains detailed output files for each model, including quantitative performance metrics and the corresponding comparison plots.
 
